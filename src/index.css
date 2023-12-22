@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-feature-settings: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  --tw-bg-opacity: 1;
+    background-color: rgb(17 17 17/var(--tw-bg-opacity));
+    color: hsla(0, 0%, 100%, .9);
+  overflow-x: hidden;
+}
+
+.wrapper{
+  width: 100%; /* Adjust the width as needed */
+  max-width: 1200px; /* Set a maximum width if necessary */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 25px;
+  margin: auto;
+}
+
+.color-bg{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 17 17/var(--tw-bg-opacity));
+  color: hsla(0, 0%, 100%, .9);  
+}
