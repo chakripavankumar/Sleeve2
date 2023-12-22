@@ -3,7 +3,7 @@ const RedirectToSonoama = () => {
   return (
     <div className="m-auto">
      <p className="pt-6">
-        <a className="flex border items-center max-w-[540px] lg:max-w-full text-gray-700 dark:text-white/80 bg-gray-50 dark:bg-transparent hover:bg-white dark:hover:bg-white/5 shadow-outline dark:shadow-outline-superbright px-4 py-3 gap-3 rounded-3xl transition"
+        <a className="flex items-center max-w-[540px] lg:max-w-full text-gray-700 dark:text-white/80 bg-gray-50 dark:bg-transparent hover:bg-white dark:hover:bg-white/5 shadow-outline  px-3 py-3 gap-3 rounded-2xl transition"
           href="/updates/sleeve-2-2-for-sonoma">
           <img src="https://replay.software/sleeve/images/Sonoma.png"
             width="40" height="40" alt="macOS Sonoma Icon"
