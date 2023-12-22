@@ -39,7 +39,7 @@ const Scrollableanime1 = () => {
             <Sticky className='h-[1000px] w-[500px]'>
                 <div className="color-bg w-[100px] h-[100px] "></div>
               <img
-                className="absolute top-10 h-[600px] rounded-2xl" src="./public/banner.png" width="500"alt="Imageinterface1" />
+                className="absolute top-10 h-[600px] rounded-2xl" src="https://replay.software/sleeve/images/SonomaWallpaperBannerDark@2x.jpg" width="500"alt="Imageinterface1" />
             </Sticky>
 
             <div className="relative flex flex-col gap-7 items-center justify-center z-20 transform-gpu -mt-[800px]">
