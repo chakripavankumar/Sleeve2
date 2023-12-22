@@ -8,15 +8,13 @@ const Scrollableanime1 = () => {
           <div className="flex flex-col justify-center">
             <div className="flex flex-col  md:mb-10 lg:flex-col items-center sm:items-start md:items-center lg:items-start gap-4 md:gap-16 lg:gap-7 mb-6  lg:mb-16">
               <div className="flex items-center justify-center sm:justify-start sm:mx-0.5">
-                <div className="-mr-5 -ml-5 sm:-mr-11 sm:ml-0">
+                <div className="mr-5 ml-5 sm:-mr-11 sm:ml-0">
                   <span className="relative max-w-none transition duration-500">
                     <img
                       src="https://replay.software/sleeve/images/IconArrayArtworkDark.png"
                       alt="icon1 pg-1"
-                      width="86"
-                      height="86"
-                      className="w-86 h-86 mt-0"
-                    />
+                      width="86" height="86"
+                      className="w-86 h-86 mt-0"/>
                   </span>
                 </div>
               </div>
@@ -49,10 +47,8 @@ const Scrollableanime1 = () => {
                   <img
                     src="https://replay.software/sleeve/images/Artwork1Dark.jpg"
                     alt="Imageinterface1"
-                    width="330"
-                    height="126"
-                    className="w-330 h-126 rounded-xl"
-                  />
+                    width="330"height="126"
+                    className="w-330 h-126 rounded-xl"/>
                 </span>
               </div>
               <div className="relative flex transform-gpu">
@@ -61,10 +57,8 @@ const Scrollableanime1 = () => {
                   <img
                     src="https://replay.software/sleeve/images/Artwork2Dark.jpg"
                     alt="Image interface2"
-                    width="330"
-                    height="102"
-                    className="w-330 h-102 rounded-xl"
-                  />
+                    width="330"height="102"
+                    className="w-330 h-102 rounded-xl"/>
                 </span>
               </div>
               <div className="relative flex transform-gpu">
@@ -73,10 +67,8 @@ const Scrollableanime1 = () => {
                   <img
                     src="https://replay.software/sleeve/images/Artwork3Dark.jpg"
                     alt="Imageinterface3"
-                    width="330"
-                    height="102"
-                    className="w-330 h-102 rounded-xl"
-                  />
+                    width="330"height="102"
+                    className="w-330 h-102 rounded-xl" />
                 </span>
               </div>
             </div>
@@ -86,5 +78,4 @@ const Scrollableanime1 = () => {
     </div>
   );
 };
-
 export default Scrollableanime1;

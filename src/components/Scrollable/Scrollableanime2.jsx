@@ -11,10 +11,8 @@ const Scrollableanime2 = () => {
                     <img
                       src="https://replay.software/sleeve/images/IconArrayTrackDark.png"
                       alt="icon1 pg-1"
-                      width="86"
-                      height="86"
-                      className="w-86 h-86 mt-0"
-                    />
+                      width="86"height="86"
+                      className="w-86 h-86 mt-0" />
                   </span>
                 </div>
               </div>
@@ -31,9 +29,7 @@ const Scrollableanime2 = () => {
               </p>
             </div>
           </div>
-
-          <div className="relative lg:absolute lg:left-full w-full inset-y-0 lg:py-0 flex flex-col justify-center items-center">
-            {/* <div className="absolute inset-0 shadow-outline dark:shadow-outline-bright rounded-2xl bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] dark:bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] bg-cover bg-center"></div> */}
+         <div className="relative lg:absolute lg:left-full w-full inset-y-0 lg:py-0 flex flex-col justify-center items-center">
             <div className="relative flex flex-col gap-7 items-center justify-center z-20 transform-gpu">
               <div className="relative flex transform-gpu">
                 <span className="absolute inset-0 shadow-big dark:shadow-big-dark rounded-xl"></span>
@@ -41,10 +37,8 @@ const Scrollableanime2 = () => {
                   <img
                     src="https://replay.software/sleeve/images/Typography1Dark.jpg"
                     alt="Imageinterface1"
-                    width="330"
-                    height="234"
-                    className="w-330 h-234 rounded-xl"
-                  />
+                    width="330" height="234"
+                    className="w-330 h-234 rounded-xl"/>
                 </span>
               </div>
               <div className="relative flex transform-gpu">
@@ -53,10 +47,8 @@ const Scrollableanime2 = () => {
                   <img
                     src="https://replay.software/sleeve/images/Typography2Dark.jpg"
                     alt="Imageinterface2"
-                    width="330"
-                    height="305"
-                    className="w-330 h-305 rounded-xl"
-                  />
+                    width="330"height="305"
+                    className="w-330 h-305 rounded-xl"/>
                 </span>
               </div>
             </div>
@@ -66,5 +58,4 @@ const Scrollableanime2 = () => {
     </div>
   );
 };
-
 export default Scrollableanime2;
