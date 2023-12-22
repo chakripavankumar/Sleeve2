@@ -1,8 +1,6 @@
 import { useNavigate } from "react-router-dom";
-
 const PaymentBtn=()=>{
     const navigator = useNavigate();
-    
     async function fun() {
        console.log("fun");
         const loadScript=(source)=>{

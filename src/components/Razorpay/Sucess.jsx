@@ -1,5 +1,3 @@
-
-
 const Sucess = () => {
   return (
     <div className="text-5xl font-bold">
@@ -7,5 +5,4 @@ const Sucess = () => {
     </div>
   )
 }
-
 export default Sucess

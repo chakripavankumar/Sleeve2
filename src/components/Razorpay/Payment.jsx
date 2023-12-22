@@ -1,7 +1,5 @@
 import PaymentBtn from "./RazorPayLogic"
-
 const Payment = () => {
-  
   return (
     <div className="flex flex-col items-center gap-7 pt-6 text-center">
       <div className="flex flex-col sm:flex-row gap-4  sm:gap-7">
@@ -31,4 +29,4 @@ const Payment = () => {
     </div>
   )
 }
-export default Payment
+export default Payment;

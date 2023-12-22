@@ -24,8 +24,7 @@ const Scrollableanime3 = () => {
                         width="86"
                         height="86"
                         className="top-0 md:top-[-3px] lg:top-0 w-86 h-86"
-                        style={{ marginTop: "calc(12px)" }}
-                      />
+                        style={{ marginTop: "calc(12px)" }} />
                     </span>
                   </div>
                   <div className="mr-5 ml-5 sm:-mr-11 sm:ml-0">
@@ -36,8 +35,7 @@ const Scrollableanime3 = () => {
                         width="86"
                         height="86"
                         className="top-0 md:top-[-6px] lg:top-0 w-86 h-86"
-                        style={{ marginTop: "calc(24px)" }}
-                      />
+                        style={{ marginTop: "calc(24px)" }}/>
                     </span>
                   </div>
                 </div>
@@ -54,23 +52,18 @@ const Scrollableanime3 = () => {
               </p>
             </div>
           </div>
-
           <div className="relative lg:absolute lg:left-full w-full inset-y-0 py-16 lg:py-0 flex flex-col justify-center items-center">
-            {/* <div className="absolute inset-0 shadow-outline dark:shadow-outline-bright rounded-2xl bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] dark:bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] bg-cover bg-center"></div> */}
             <div className="relative flex flex-col gap-7 items-center justify-center z-20 transform-gpu">
-              <div className="flex flex-col -space-y-6">
-                
-                <div className="relative -left-3 z-20">
+              <div className="flex flex-col -space-y-6"> 
+               <div className="relative -left-3 z-20">
                   <div className="relative flex transform-gpu">
                     <span className="absolute inset-0 shadow-big dark:shadow-big-dark rounded-xl"></span>
                     <span className="relative max-w-none transition duration-500">
                       <img
                         src="https://replay.software/sleeve/images/Interface1Dark.jpg"
                         alt="interface1"
-                        width="330"
-                        height="261"
-                        className="w-330 h-261 rounded-xl"
-                      />
+                        width="330"height="261"
+                        className="w-330 h-261 rounded-xl" />
                     </span>
                   </div>
                 </div>
@@ -81,10 +74,8 @@ const Scrollableanime3 = () => {
                       <img
                         src="https://replay.software/sleeve/images/Interface2Dark.jpg"
                         alt="interface"
-                        width="330"
-                        height="321"
-                        className="w-330 h-321 rounded-xl"
-                      />
+                        width="330"height="321"
+                        className="w-330 h-321 rounded-xl"/>
                     </span>
                   </div>
                 </div>
@@ -96,5 +87,4 @@ const Scrollableanime3 = () => {
     </div>
   );
 };
-
 export default Scrollableanime3;

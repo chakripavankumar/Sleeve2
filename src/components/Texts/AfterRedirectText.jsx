@@ -21,5 +21,4 @@ const AfterRedirectText = () => {
             </section>
   )
 }
-
 export default AfterRedirectText

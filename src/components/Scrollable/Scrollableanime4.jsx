@@ -11,8 +11,7 @@ const Scrollableanime4 = () => {
                     <span className="relative max-w-none transition duration-500">
                       <img
                         src="https://replay.software/sleeve/images/IconArrayWindowDark.png" width="86"height="86"
-                        className="w-86 h-86 mt-0"
-                      />
+                        className="w-86 h-86 mt-0"/>
                     </span>
                   </div>
                   <div className="mr-5 ml-5 sm:mr-11 sm:ml-0">
@@ -42,7 +41,6 @@ const Scrollableanime4 = () => {
             </div>
           </div>
           <div className="relative lg:absolute lg:left-full w-full inset-y-0 lg:py-0 flex flex-col justify-center items-center">
-            {/* <div className="absolute inset-0 shadow-outline dark:shadow-outline-bright rounded-2xl bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg')] dark:bg-[url('https://replay.software/sleeve/images/SonomaWallpaperDark@2x.jpg"></div> */}
             <div className="relative flex flex-col gap-7 items-center justify-center z-20 transform-gpu">
               <div className="flex flex-col -space-y-6">
                 <div className="relative -left-6 z-30">
@@ -51,10 +49,8 @@ const Scrollableanime4 = () => {
                     <span className="relative max-w-none transition duration-500">
                       <img
                         src="https://replay.software/sleeve/images/Settings1Dark.jpg"
-                        width="330"
-                        height="179"
-                        className="w-330 h-179 rounded-xl"
-                      />
+                        width="330" height="179"
+                        className="w-330 h-179 rounded-xl" />
                     </span>
                   </div>
                 </div>
@@ -64,10 +60,8 @@ const Scrollableanime4 = () => {
                     <span className="relative max-w-none transition duration-500">
                       <img
                         src="https://replay.software/sleeve/images/Settings2Dark.jpg"
-                        width="330"
-                        height="337"
-                        className="w-330 h-337 rounded-xl"
-                      />
+                        width="330"  height="337"
+                        className="w-330 h-337 rounded-xl"/>
                     </span>
                   </div>
                 </div>
@@ -77,10 +71,8 @@ const Scrollableanime4 = () => {
                     <span className="relative max-w-none transition duration-500">
                       <img
                         src="https://replay.software/sleeve/images/Settings3Dark.jpg"
-                        width="330"
-                        height="224"
-                        className="w-330 h-224 rounded-xl"
-                      />
+                        width="330"height="224"
+                        className="w-330 h-224 rounded-xl"/>
                     </span>
                   </div>
                 </div>

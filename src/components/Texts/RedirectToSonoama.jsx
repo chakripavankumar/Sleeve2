@@ -7,10 +7,8 @@ const RedirectToSonoama = () => {
           href="/updates/sleeve-2-2-for-sonoma">
           <img src="https://replay.software/sleeve/images/Sonoma.png"
             width="40" height="40" alt="macOS Sonoma Icon"
-            className="-m-3 -ml-2.5 -mr-1.5">
+            className="m-3 ml-2.5 mr-1.5">
           </img>
-          {/* <span className="sm:hidden">Updated for macOS Sonoma
-        </span> */}
           <span className="hidden sm:inline-block">
               Now updated with <b className="font-medium">support for macOS Sonoma</b> See whats new in Sleeve 2.2
       </span>
@@ -20,5 +18,4 @@ const RedirectToSonoama = () => {
     </div>
   )
 }
-
-export default RedirectToSonoama
+export default RedirectToSonoama;

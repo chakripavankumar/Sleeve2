@@ -11,8 +11,6 @@ import Scrollableanime1 from "./components/Scrollable/Scrollableanime1";
 import Scrollableanime2 from "./components/Scrollable/Scrollableanime2";
 import Scrollableanime3 from "./components/Scrollable/Scrollableanime3";
 import Scrollableanime4 from "./components/Scrollable/Scrollableanime4";
-
-
 const App = () => {
   return (
     <body className="wrapper">
@@ -32,9 +30,6 @@ const App = () => {
       <Scrollableanime3 />
       <Scrollableanime4 />    
     </body>
-    
-
   );
 };
-
 export default App;
